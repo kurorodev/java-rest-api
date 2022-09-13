@@ -1,8 +1,8 @@
-// package com.example.restapiservice.repository;
+package com.example.restapiservice.repository;
 
-// import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.CrudRepository;
 
-// import entity.UserEntity;
+import entity.UserEntity;
 
-// public interface UserRepo extends CrudRepository<UserEntity, Long>{
-// }
+public interface UserRepo extends CrudRepository<UserEntity, Long>{
+}
