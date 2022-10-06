@@ -3,7 +3,6 @@ package com.danyadev.restapi.Controller;
 import com.danyadev.restapi.Entity.UserEntity;
 import com.danyadev.restapi.exception.UserAlreadyExist;
 import com.danyadev.restapi.exception.UserNotFound;
-import com.danyadev.restapi.repository.UserRepo;
 import com.danyadev.restapi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
